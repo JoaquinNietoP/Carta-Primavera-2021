@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+//Main, tragos
+main {
+    background-color: violet;
+}
+h1{
+    display: none;
+}
+
+h2, h3 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+section {
+    article{
+      background-color: whitesmoke;
+      margin: 1%;
+      padding: 1%;
+      display: block; 
+
+      
+      
+      .descripcion {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-radius: 20px;
+          .list {
+              padding: 2%;
+              margin: 2%;
+              text-align: center;
+          }
+          img {
+              width: 500px;
+              border-radius: 20px;
+              box-shadow: rgba(0, 0, 0, 0.418) 10px 10px;
+           }
+        }
+    }
+}

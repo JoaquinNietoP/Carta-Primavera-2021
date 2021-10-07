@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: violet;
+}
+
+h1 {
+  display: none;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+section article {
+  background-color: whitesmoke;
+  margin: 1%;
+  padding: 1%;
+  display: block;
+}
+
+section article .descripcion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+}
+
+section article .descripcion .list {
+  padding: 2%;
+  margin: 2%;
+  text-align: center;
+}
+
+section article .descripcion img {
+  width: 500px;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.418) 10px 10px;
+          box-shadow: rgba(0, 0, 0, 0.418) 10px 10px;
+}
+/*# sourceMappingURL=style.css.map */
