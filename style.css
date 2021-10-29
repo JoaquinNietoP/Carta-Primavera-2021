@@ -82,9 +82,6 @@ section article .descripcion img {
   body {
     font-size: 1.2em;
   }
-  body .descripcion {
-    display: inline-block;
-  }
   body .descripcion .photo {
     width: 150px;
   }
