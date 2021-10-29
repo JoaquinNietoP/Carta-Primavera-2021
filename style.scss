@@ -3,7 +3,20 @@
     padding: 0;
 }
 
+//*header
 
+header {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    h2 {
+        width: 60%;
+    }
+    img {
+        width: 30%;
+    }
+}
 //Main, tragos
 main {
     background-color: violet;
@@ -12,7 +25,7 @@ h1{
     display: none;
 }
 
-h2, h3 {
+h3 {
     text-align: center;
 }
 p {
@@ -34,16 +47,33 @@ section {
           justify-content: space-between;
           align-items: center;
           border-radius: 20px;
-          .list {
-              padding: 2%;
-              margin: 2%;
+          ul, li {
+              font-size: 1.2em;
               text-align: center;
+              list-style: none;
+              text-decoration: underline black;
+          }
+          p {
+              font-size: 1.4em;
           }
           img {
               width: 500px;
               border-radius: 20px;
               box-shadow: rgba(0, 0, 0, 0.418) 10px 10px;
            }
+        }
+    }
+}
+
+//media queries 
+@media (max-width:360px) {
+    body{
+        font-size: 1.2em;
+        .descripcion{
+            display: inline-block;
+            .photo{
+                width: 150px;
+            }
         }
     }
 }
