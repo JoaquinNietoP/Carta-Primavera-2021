@@ -75,6 +75,21 @@ section {
         }
     }
 }
+footer{
+    background: black;
+    text-align: center;
+    height: auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    justify-content: center;
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: grey;
+    }
+}
 
 //media queries 
 @media (max-width:480px) {
